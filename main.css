@@ -25,6 +25,21 @@ header nav ul a {
 	color:white;
 }
 
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.top-link{
+	opacity:1;
+	transition:0.3s;
+}
+
+.top-link:hover {
+	opacity:0.7;
+}
+
 .home {
 	background-image: url("home-background.jpg");
 	background-repeat: no-repeat;
@@ -129,6 +144,14 @@ nav ul a{
 	margin: 5px;
 }
 
+.logo {
+	transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+	transform: scale(1.1);
+}
+
 .contact {
 	padding-bottom: 10px;
 	height: 300px;
@@ -146,7 +169,16 @@ nav ul a{
 .contact ul li {
 	padding: 0 20px 0 0;
 	font-size: 100px;
-	display: inline-block
+	display: inline-block;
+}
+
+.icons {
+	opacity: 1;
+	transtion: 0.3s;
+}
+
+.icons:hover {
+	opacity: 0.7;
 }
 
 .fa {
